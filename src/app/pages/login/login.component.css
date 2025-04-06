@@ -1,0 +1,56 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.footer {
+  background-color: #2171B5; /* Azul intenso para el footer */
+  border-radius: 12px 12px 0 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  background-color: #EFF3FF; /* Azul muy pálido como fondo de la tarjeta */
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #2171B5; /* Azul intenso para el título */
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  color: #6BAED6; /* Azul medio para las etiquetas de los formularios */
+}
+
+.form-control {
+  border-color: #BDD7E7; /* Azul claro para los bordes de los campos */
+}
+
+.btn-primary {
+  background-color: #2171B5; /* Azul intenso para el botón */
+  border-color: #2171B5;
+}
+
+.btn-primary:hover {
+  background-color: #6BAED6; /* Azul medio para el hover del botón */
+  border-color: #6BAED6;
+}
+
+
+body {
+  background-image: url('https://i.ibb.co/YFvPZNq/BG.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+

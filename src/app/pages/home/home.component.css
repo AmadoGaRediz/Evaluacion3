@@ -1,0 +1,98 @@
+body {
+  background-color: #EFF3FF; /* Azul muy pálido como fondo principal */
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0; /* Elimina el margen por defecto */
+}
+
+h4 {
+  font-weight: 600;
+  color: #2171B5; /* Azul intenso para los títulos */
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 100px;
+}
+
+.table-card {
+  flex: 1;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  padding: 25px;
+  min-width: 320px;
+}
+
+.table th {
+  background-color: #2171B5; /* Azul intenso en los encabezados de la tabla */
+  color: white;
+}
+
+/* Navbar sin margen y pegado al top */
+.navbar {
+  background: #BDD7E7; /* Azul claro para la barra de navegación */
+  border-radius: 0; /* Elimina el radio del borde para pegarlo arriba */
+  margin-bottom: 0 px; /* Elimina cualquier margen */
+  padding: 0.5rem 1rem; /* Ajusta el padding si es necesario */
+  position: fixed; /* Hace que el navbar se quede fijo en la parte superior */
+  top: 0; /* Lo coloca en la parte superior */
+  left: 0;
+  width: 100%; /* Asegura que el navbar ocupe todo el ancho */
+  z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+}
+
+/* Asegúrate de que el contenido no quede oculto debajo del navbar */
+.main-content {
+  margin-top: 70px; /* Ajusta este valor para dar espacio al navbar fijo */
+}
+
+.navbar img {
+  border-radius: 8px;
+}
+
+.btn-outline-primary {
+  border-color: #2171B5; /* Azul intenso para botones */
+  color: #2171B5;
+}
+
+.btn-outline-primary:hover {
+  background-color: #2171B5;
+  color: white;
+}
+
+.btn-outline-success:hover {
+  background-color: #198754;
+  color: white;
+}
+
+.footer {
+  background-color: #2171B5; /* Azul intenso para el pie de página */
+  border-radius: 12px 12px 0 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: #2171B5; /* Azul intenso en el footer */
+  border-radius: 12px 12px 0 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

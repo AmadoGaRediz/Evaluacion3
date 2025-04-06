@@ -1,0 +1,133 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+    color: #2171B5; /* Azul intenso para el título principal */
+    font-weight: 600;
+}
+
+h4 {
+    color: #2171B5; /* Azul intenso para los subtítulos */
+    font-weight: 600;
+}
+
+.col-sm-4 {
+    background-color: #EFF3FF; /* Azul muy pálido para el fondo del formulario */
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h4, label {
+    color: #2171B5; /* Azul intenso para los subtítulos y etiquetas */
+}
+
+input.form-control {
+    border-color: #BDD7E7; /* Azul claro para los bordes de los campos */
+    margin-bottom: 10px;
+}
+
+button.btn-primary {
+    background-color: #2171B5; /* Azul intenso para los botones */
+    border-color: #2171B5;
+}
+
+button.btn-primary:hover {
+    background-color: #6BAED6; /* Azul medio para el hover */
+    border-color: #6BAED6;
+}
+
+button.btn-warning {
+    background-color: #FDBA24; /* Naranja suave para el botón de modificar */
+    border-color: #FDBA24;
+}
+
+button.btn-warning:hover {
+    background-color: #F59C42;
+    border-color: #F59C42;
+}
+
+button.btn-danger {
+    background-color: #E3342F; /* Rojo para el botón de eliminar */
+    border-color: #E3342F;
+}
+
+button.btn-danger:hover {
+    background-color: #D03A32;
+    border-color: #D03A32;
+}
+
+/* Estilo para la tabla */
+.table {
+    width: 100%; /* Asegura que la tabla ocupe todo el espacio disponible */
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    margin-left: 20px;
+    overflow-x: auto; /* Permitir desplazamiento horizontal si la tabla es ancha */
+    display: block; /* Hace que la tabla se comporte como un bloque para permitir el desplazamiento */
+}
+
+.table th {
+    background-color: #2171B5; /* Azul intenso para el encabezado */
+    color: white;
+}
+
+.table td {
+    color: #6BAED6; /* Azul medio para las celdas */
+}
+
+.table .btn-success {
+    background-color: #28A745; /* Verde para el botón de seleccionar */
+    border-color: #28A745;
+}
+
+.table .btn-success:hover {
+    background-color: #218838;
+    border-color: #1E7E34;
+}
+
+/* Layout de dos columnas */
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en pantallas pequeñas */
+}
+
+.d-flex .col-sm-4 {
+    flex: 0 0 48%; /* Formulario a la izquierda */
+    padding-right: 20px;
+}
+
+.d-flex .table {
+    flex: 0 0 48%; /* Tabla a la derecha */
+    padding-left: 20px;
+    overflow-y: auto; /* Permite el desplazamiento vertical si hay muchas filas */
+}
+
+.navbar {
+    background-color: #BDD7E7; /* Cambié el color de fondo a #BDD7E7 */
+    border-radius: 0; /* Elimina el radio del borde para pegarlo arriba */
+    margin: 0; /* Elimina cualquier margen */
+    padding: 0.5rem 1rem; /* Ajusta el padding si es necesario */
+    position: fixed; /* Hace que el navbar se quede fijo en la parte superior */
+    top: 0; /* Lo coloca en la parte superior */
+    left: 0;
+    width: 100%; /* Asegura que el navbar ocupe todo el ancho */
+    z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+  }
+  
+
+  body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', sans-serif;
+    margin-top: 60px; /* Añadimos un margen superior para que el contenido no se empalme con el navbar */
+  }
+  
+  .main-content {
+    margin-top: 60px; /* Esta propiedad agrega espacio suficiente para que el contenido no se solape con el navbar */
+  }

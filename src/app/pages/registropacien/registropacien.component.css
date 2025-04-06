@@ -1,0 +1,109 @@
+/* Navbar */
+/* Navbar */
+/* Navbar */
+.navbar {
+  background: #BDD7E7; /* Azul claro para la barra de navegación */
+  border-radius: 0; /* Elimina el radio del borde para pegarlo arriba */
+  margin-bottom: 0; /* Elimina cualquier margen */
+  padding: 0.5rem 1rem; /* Ajusta el padding si es necesario */
+  position: fixed; /* Hace que el navbar se quede fijo en la parte superior */
+  top: 0; /* Lo coloca en la parte superior */
+  left: 0;
+  width: 100%; /* Asegura que el navbar ocupe todo el ancho */
+  z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+}
+
+/* Contenedor de los botones (ahora en fila) */
+.navbar .d-flex {
+  display: flex;
+  justify-content: flex-end; /* Alinea los botones al final */
+  gap: 10px; /* Ajusta el espacio entre los botones */
+  flex-wrap: nowrap; /* Evita que los botones se acomoden verticalmente */
+}
+
+/* Botones en la barra de navegación */
+.navbar .btn {
+  white-space: nowrap; /* Asegura que el texto del botón no se divida */
+}
+
+/* Espaciado dentro de los botones para que no estén tan juntos */
+.navbar .btn {
+  padding: 0.5rem 1rem;
+}
+
+
+/* Ajusta el espacio superior del body para que el contenido no se oculte debajo del navbar */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0; /* Elimina el margen por defecto */
+  padding-top: 70px; /* Espacio superior para el navbar */
+}
+
+.main-content {
+  margin-top: 70px; /* Este margen agrega espacio suficiente debajo del navbar */
+}
+
+h2, h4 {
+  color: #2171B5;
+  font-weight: 600;
+}
+
+.col-sm-4, .col-sm-5, .col-sm-7 {
+  background-color: #EFF3FF;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+input.form-control {
+  border-color: #BDD7E7;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.d-flex .col-sm-5 {
+  flex: 0 0 48%; /* Formulario a la izquierda */
+}
+
+.d-flex .col-sm-7 {
+  flex: 0 0 48%; /* Listado de pacientes a la derecha */
+}
+
+.table {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  margin-left: 20px;
+  overflow-x: auto;
+}
+
+.table th {
+  background-color: #2171B5;
+  color: white;
+}
+
+.table td {
+  color: #6BAED6;
+}
+
+.table .btn-success {
+  background-color: #28A745;
+  border-color: #28A745;
+}
+
+.table .btn-success:hover {
+  background-color: #218838;
+  border-color: #1E7E34;
+}
